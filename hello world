@@ -1,0 +1,7 @@
+Print Hello, World! to stdout.
+
+
+  ANSWER:
+
+my_string = "Hello, World!"
+print(my_string)
