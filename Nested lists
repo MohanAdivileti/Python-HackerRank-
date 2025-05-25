@@ -1,8 +1,8 @@
-N = int(raw_input())
+N = int(int(input()))
 nested_list = []
 for i in range(N):
-    name = str(raw_input())
-    score = float(raw_input())
+    name = str(input())
+    score = float(input())
     nested_list.append([name,score])
 marks = []
 for i in range(N):
@@ -15,4 +15,4 @@ for i in range(N):
     if(nested_list[i][1] == second_lowest):
         name_list.append(nested_list[i][0])
 name_list.sort()
-print "\n".join(name_list)
+print("\n".join(name_list))
