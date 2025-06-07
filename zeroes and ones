@@ -1,0 +1,8 @@
+import numpy as np
+
+
+if __name__ == "__main__":
+    n_arr = list(map(int, input().split()))
+    n = tuple(n_arr)
+    print(np.zeros(n, dtype=np.int32))
+    print(np.ones(n, dtype=np.int32))
