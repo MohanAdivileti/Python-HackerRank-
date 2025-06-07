@@ -1,0 +1,13 @@
+import numpy as np
+
+
+if __name__ == "__main__":
+    n, m = map(int, input().split())
+    arr = []
+    for _ in range(n):
+        row = list(map(int, input().split()))
+        arr.append(row)
+
+    np_arr = np.array(arr)
+    print(np.transpose(np_arr))
+    print(np_arr.flatten())
